@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(226, 223, 214, 0.733);
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-size: 40px;
+    color: red;
+}
+
+h3 {
+    font-style: italic;
+}
+
+h4 {
+    font-weight: 200;
+}
+
+.my_class {
+    color: black;
+    text-align: center;
+}
+
+.border {
+    border: 3px solid black;
+    background-color: white;
+    margin: 10px 0px; /* top/bottom, left/right */
+}
+
+.subheadings {
+    font-size: 25px;
+}
+
+.heading {
+    color: rgba(70, 83, 70);
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+
+.header_bar {
+    height: 50px;
+    border: 2px;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+
+.margin {
+    margin: 0px 200px;
+}
+
+.menu {
+    font-size: 25px;
+    padding: 9px 16px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
