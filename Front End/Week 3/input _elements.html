@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+   </head>
+   <body>
+
+        <!-- This is how to create a table -->
+       <!-- thead = table head
+            tbody = table body
+            tr = table row
+            th = header cell
+            td = data cell -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Breed</th>
+                    <th>Color</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Golden Retriever</td>
+                    <td>Yellow</td>
+                    <td>Free!</td>
+                </tr>
+                <tr>
+                    <td>Husky</td>
+                    <td>Grey</td>
+                    <td>Free!</td>
+                </tr>
+                <tr>
+                    <td>Samoyed</td>
+                    <td>White</td>
+                    <td>Free!</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+
+        <!-- Here are some code for input forms -->
+        <h2>Reserve Your Puppy!</h2>
+        <form>
+            <h4>Delivery</h4>
+            <!-- Radio buttons can only be selected one at a time. Selecting one will unselect the other -->
+            <input name="deliveryMethod" type="radio" value="delivery">Delivery<br>
+            <input name="deliveryMethod" type="radio" value="pickup">Pickup<br>
+
+            <!-- Creating input forms -->
+            <h4>Address</h4>
+            <input name="address1" placeholder="Adress Line 1" class="lg-input"><br>
+            <input name="address2" placeholder="Adress Line 2" class="lg-input"><br>
+            <input name="city" placeholder="City" class="sm-input">
+            <input name="state" placeholder="State" class="sm-input"><br>
+            <input name="zip" placeholder="Zip Code" class="sm-input"><br>
+            <br>
+            <br>
+
+            <!-- Select is a multiple choice in a drop-down -->
+            <h4>Which puppy do you want?</h4>
+            <select name="size">
+                <option>Golden retriever - Free</option>
+                <option>Husky - Free</option>
+                <option>Samoyed - Free</option>
+            </select>
+
+            <!-- Creating checkboxes -->
+            <h4>Here is another way to select puppies</h4>
+            <input type="checkbox">Pepperoni<br>
+            <input type="checkbox">Salami<br>
+            <input type="checkbox">Bacon<br>
+            <input type="checkbox">Sausage<br>
+            <input type="checkbox">Onions<br>
+            <input type="checkbox">Peppers<br>
+
+            <br>
+            <br>
+
+            <!-- Creating buttons -->
+            <button type="submit"><b>Reserve</b></button>
+        </form>
+   </body> 
+</html>

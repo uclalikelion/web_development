@@ -1,0 +1,76 @@
+
+/* Adding non-standard fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    /* HTML color codes */
+    background-color: #C6F2FA;
+    /* RGB color codes */
+    /* background-color: rgb(24, 207, 231); */
+    font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+    margin: 5px;
+}
+
+.header {
+    text-align: center;
+}
+
+#title {
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+}
+
+.slogan {
+    /* Margins go by "top, right, bottom, left */
+    margin: 0 0 20px 0 ;
+    font-size: 25px;
+    font-family: 'Arial Narrow';
+    font-style: italic;
+}
+
+.subtitle {
+    color: darkblue;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.question {
+    margin: auto;
+    width: 85%;
+}
+
+.box {
+    border: 3px solid;
+    margin: 10px;
+    /* If only two numbers are given, it goes by "top/bottom left/right" */
+    padding: 0 10px;
+    background-color: white;
+}
+
+.answer {
+    font-weight: 400;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.link_style {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+
+.link_style:hover {
+    color: darkblue;
+}
+
+.list {
+    width: 75%;
+    margin: auto;
+}
